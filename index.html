@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-Challange</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav id="nav-bar-container">
+        <div class="logo-container">
+            <h1>_Nology</h1>
+        </div>
+        <div class="links-container">
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+        </div>
+        <div id="profile-area-container">
+            <img src="data:image/jpeg;base64,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"
+                alt="">
+            <a href="">Profile</a>
+        </div>
+        </div>
+    </nav>
+
+    <div id="search-area">
+        <img src="data:image/png;base64,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"
+            alt="">
+        <div id="search-input">
+            <span>search</span>
+            <input label="search" type="text">
+        </div>
+        <div>
+            <span>Chose and Option.</span>
+            <select id="nav-bar-options">
+                <option value="">option 1</option>
+                <option value="">option 2</option>
+                <option value="">option 3</option>
+            </select>
+        </div>
+    </div>
+
+    <section id="all-content">
+        <div class="cards">
+            <h1>Title 1</h1>
+            <h2>Sub-Title</h2>
+            <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q="
+                alt="">
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur</p>
+        </div>
+        <div class="cards">
+            <h1>Title 2</h1>
+            <h2>Sub-Title</h2>
+            <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q="
+                alt="">
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur</p>
+        </div>
+        <div class="cards">
+            <h1>Title 3</h1>
+            <h2>Sub-Title</h2>
+            <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q="
+                alt="">
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur</p>
+        </div>
+        <div class="cards">
+            <h1>Title 4</h1>
+            <h2>Sub-Title</h2>
+            <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q="
+                alt="">
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur</p>
+        </div>
+        <div class="cards">
+            <h1>Title 5</h1>
+            <h2>Sub-Title</h2>
+            <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q="
+                alt="">
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur</p>
+        </div>
+        <div class="cards">
+            <h1>Title 6</h1>
+            <h2>Sub-Title</h2>
+            <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q="
+                alt="">
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur</p>
+        </div>
+        <div class="cards">
+            <h1>Title 7</h1>
+            <h2>Sub-Title</h2>
+            <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q="
+                alt="">
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur</p>
+        </div>
+        <div class="cards">
+            <h1>Title 8</h1>
+            <h2>Sub-Title</h2>
+            <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q="
+                alt="">
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
